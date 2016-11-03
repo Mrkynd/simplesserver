@@ -6,7 +6,6 @@ var app = express()
 
 app.get('/', routes.index)
 
-app.use('/assets', express.static('assets'))
 app.use('/home', express.static('public'))
 
 // app.set('views', './views')
