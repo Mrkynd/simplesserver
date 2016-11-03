@@ -10,6 +10,7 @@ function foo(req, res) {
 
 function message(req, res) {
   res.render('index', {
-    title: 'Mr. Kynd'
+    title: "Mr. Kynd",
+    navLinks: ["Home", "About", "Contact", "Blog"]
   })
 }
